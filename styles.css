@@ -61,6 +61,8 @@ nav a {
     background-image: url("images/banner.jpeg");
     background-size: cover;
     background-position: center;
+    border-top: 5px solid rgb(153, 176, 199);
+    border-bottom: 5px solid rgb(153, 176, 199);
 }
 
 .slogan {
@@ -70,4 +72,47 @@ nav a {
     font-size: 4rem;
     font-family: 'Outfit';
     background-color: rgb(153, 176, 199);
+}
+
+/* Pictures Section */
+
+.pictures {
+    width: 100%;
+    background-color: hsla(112, 50%, 66%, 1);
+}
+
+.meet {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Outfit';
+    margin-top: 0;
+    padding-top: 60px;
+}
+
+.pic_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img_container img {
+    border: 3px solid rgb(153, 176, 199);
+    border-radius: 10px;
+}
+
+.img_container h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.landscape {
+    width: 360px;
+    height: 480px;
+}
+
+@media (max-width: 480px) {
+    .landscape {
+        width: 95%;
+    }
 }
