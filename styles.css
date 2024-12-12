@@ -116,3 +116,15 @@ nav a {
         width: 95%;
     }
 }
+
+/* Footer Section */
+
+footer {
+    background-color: rgb(153, 176, 199);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h4 {
+    font-size: 2rem;
+}
